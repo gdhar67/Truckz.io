@@ -21,6 +21,8 @@
 	- password
 	- type
 
+-----------------------------------------------------------------------------------
+
 #### /api/user/postlogin
 - A Post request.
 - Used to log In user.
@@ -28,15 +30,21 @@
 	- username
 	- password
 
+-----------------------------------------------------------------------------------
+
 #### /api/user/logout
 - A Get request.
 - Used to log out user.
+
+-----------------------------------------------------------------------------------
 
 #### /api/user/ownerhomepage
 - A Post request.
 - Used to display booking request in "owner" homepage.
 - Takes 1 parameter namely
 	- id (user id)
+
+-----------------------------------------------------------------------------------
 
 ##### /api/inputdata
 - A Post request.
@@ -55,6 +63,8 @@
 			- data[1][truck_name] : xxxx
 			- data[1][max_weight] : xxx
 			- data[1][max_volume] : xxx
+
+-----------------------------------------------------------------------------------
 
 ##### /api/input/ownertrucks
 - A Post request.
@@ -80,7 +90,7 @@
 			- data[1][numberplate]  : xxx
 			- data[1][current_city] : xxx
 
-
+-----------------------------------------------------------------------------------
 
 ##### /api/customer/postbookingrequest
 - A Post request.
@@ -122,6 +132,8 @@
 			- item[1][length]  : xxx
 			- item[1][breadth] : xxx
 
+-----------------------------------------------------------------------------------
+
 ##### /api/owner/postjourneyplan
 - A Post request.
 - Used to enter a Jurney plan by owner.
@@ -150,6 +162,8 @@
 			- dropOff_date : yyyy-mm-dd
 			- dropoff_time : hh-mm-ss
 			- truck_fare   : xxxxx
+
+-----------------------------------------------------------------------------------
 			
 ##### /api/customeracceptrequest
 - A Post request.
@@ -162,6 +176,8 @@
 			- id           : xx (user id)
 			- id1          : xx (journey plan id)
 
+-----------------------------------------------------------------------------------
+
 ##### /api/customerrejectrequest
 - A Post request.
 - Used to reject a journey plan proposed by a owner.
@@ -173,6 +189,8 @@
 			- id           : xx (user id)
 			- id1          : xx (journey plan id)
 
+-----------------------------------------------------------------------------------
+
 ##### /api/customer/view/bookingRequest
 - A Post request.
 - Used to view booking request submitted by the user.
@@ -181,6 +199,8 @@
 
 		- Input Post Request Format :
 			- id           : xx (user id)
+
+-----------------------------------------------------------------------------------
 
 ##### /api/customer/view/journeyplan
 - A Post request.
@@ -192,6 +212,8 @@
 		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (booking request id)
+
+-----------------------------------------------------------------------------------
 
 ##### /api/owner/currentcity
 - A Post request.
