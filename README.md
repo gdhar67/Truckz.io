@@ -11,7 +11,7 @@
 
 ### SERVER ROUTES
 
-##### /api/guest/postregister
+### /api/guest/postregister
 - A Post request.
 - Takes 5 parameters namely
 	- username
