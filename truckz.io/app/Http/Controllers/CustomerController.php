@@ -81,7 +81,7 @@ class customerController extends Controller
 		$id1 = $request['id1'];
 		$journey_plan= journey_plan::where('id', $id1)->first();
 		if($journey_plan->status != "pending")
-			return response()->json("You have already responded to the journey plan already",200);	
+			return response()->json("You have already responded to this journey plan",200);	
 					
 		$journey_plan->status="accepted";
 		$journey_plan->update();

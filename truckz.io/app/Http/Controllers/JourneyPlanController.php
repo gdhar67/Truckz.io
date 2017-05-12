@@ -36,7 +36,7 @@ class journeyPlanController extends Controller
 			if($user_truck->percent_weight_left < $required_weight)
 				return response()->json("The truck you selected will be overloaded",422);			
 
-			$space_allocation = $request['space_allocation'];
+			$space_allocation = $request['space_alloc'];
 			$end_to_end   = $request['end_to_end'];
 			$source       = $request['source'];
 			$destination  = $request['destination'];

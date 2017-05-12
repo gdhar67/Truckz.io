@@ -22,11 +22,6 @@ Route::post('/api/user/ownerhomepage',[
 'as' => 'OwnerHomepage'
 ]);
 
-Route::post('/api/user/customerhomepage',[ 
-'uses'=> 'customerController@getCustomerHomepage',
-'as' => 'Homepage'
-]);
-
 Route::get('/api/user/logout', [
 'uses' => 'userController@getLogout',
 'as' => 'logout'
@@ -42,7 +37,7 @@ Route::post('/api/user/postlogin',[
 'as' => 'login'
 ]);
 
-Route::post('/api/input',[
+Route::post('/api/inputdata',[
 'uses' => 'apiController@postInputData',
 'as' => 'inputdata'
 ]);
