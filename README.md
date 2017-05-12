@@ -67,7 +67,7 @@
 	- Number plate
 	- Current city
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- maxno : 2
 			- data[0][truck_name]   : xxxx
 			- data[0][max_weight]   : xxx
@@ -101,7 +101,7 @@
 	- item length
 	- item breadth
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (booking request id)
 			- source       : xxx
@@ -137,7 +137,7 @@
 	- dropoff time
 	- truck fare
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (booking request id)
 			- id2          : xx (user truck id)
@@ -158,7 +158,7 @@
 	- user id
 	- journey plan id
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (journey plan id)
 
@@ -169,7 +169,7 @@
 	- user id
 	- journey plan id
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (journey plan id)
 
@@ -179,7 +179,7 @@
 - Takes 2 parameters namely
 	- user id
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 
 ##### /api/customer/view/journeyplan
@@ -189,7 +189,7 @@
 	- user id
 	- Booking request id
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- id           : xx (user id)
 			- id1          : xx (booking request id)
 
@@ -200,7 +200,7 @@
 	- date
 	- truck id
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- date         : yyyy-mm-dd (present date)
 			- id           : xx (truck id)
 
