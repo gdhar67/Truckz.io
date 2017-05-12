@@ -47,7 +47,7 @@
 	- max weight
 	- max volume
 
-		Input Post Request Format :
+		- Input Post Request Format :
 			- maxno : 2
 			- data[0][truck_name] : xxxx
 			- data[0][max_weight] : xxx
