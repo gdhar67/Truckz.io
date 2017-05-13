@@ -38,7 +38,6 @@ class ownerController extends Controller
 						$user_truck->max_volume=$volume;
 						$user_truck->number_plate=$numberplate;
 						$user_truck->current_city=$current_city;
-						$user_truck->status="hault";
 						$user_truck -> save();
 
 				}
