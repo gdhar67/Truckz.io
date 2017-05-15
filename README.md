@@ -1,5 +1,5 @@
 # Truckz.io
-## **A basic API - Truck booking for parcel service:stuck_out_tongue_winking_eye:**
+## **A basic API - Truck booking for parcel service
 
 
 ### SERVER USED
@@ -341,4 +341,4 @@
 			
 -----------------------------------------------------------------------------------
 
-#### Truck API . Cheers:smile:
+#### Truck API . 
